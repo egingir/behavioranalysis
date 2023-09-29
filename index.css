@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+
+  /* --color-primary:#fbdd04;
+  --color-accent:#0b0c0b;
+  --color-surface: white;
+  --color-solid: #1e1e1e; */
+
+  --color-primary: white;
+  --color-accent:#316cbe;
+  --color-surface: white;
+  --color-solid: #1e1e1e;
+
+  --color-primary-20:#fdef8b;
+  --color-primary-500:#fcea68;
+  --color-primary-100:#fce545;
+  --color-primary-200:#fbdd04;
+  --color-primary-300:#fbe122;
+  --color-primary-400:#f5d803;
+  --color-primary-500:#d2b903;
+  --color-primary-600:#af9a02;
+  --color-primary-700:#8c7b02;
+  --color-primary-800:#695c01;
+  --color-primary-900:#463d01;
+
+  --color-accent-25:#c1c6c1;
+  --color-accent-50:  #afb5af;
+  --color-accent-100:  #9ca49c;
+  --color-accent-200:  #899389;
+  --color-accent-300:  #778277;
+  --color-accent-400:  #666f66;
+  --color-accent-500:  #555d55;
+  --color-accent-600:  #444a44;
+  --color-accent-700:  #333733;
+  --color-accent-800:  #222522;
+  --color-accent-900: #0b0c0b;
+
+  --color-success-50: #f0fdf4;
+  --color-success-100: #dcfce7;
+  --color-success-200: #bbf7d0;
+  --color-success-300: #86efac;
+  --color-success-400: #4ade80;
+  --color-success-500: #22c55e;
+  --color-success-600: #16a34a;
+  --color-success-700: #15803d;
+  --color-success-800: #166534;
+  --color-success-900: #14532d;
+  
+  --color-error-50: #fef2f2;
+  --color-error-100: #fee2e2;
+  --color-error-200: #fecaca;
+  --color-error-300: #fca5a5;
+  --color-error-400: #f87171;
+  --color-error-500: #ef4444;
+  --color-error-600: #dc2626;
+  --color-error-700: #b91c1c;
+  --color-error-800: #991b1b;
+  --color-error-900: #7f1d1d;
+
+
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: white;
+}
+
+.slide-in-left-enter {
+  transform: translateX(-100%);
+}
+
+.slide-in-left-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.slide-in-left-exit {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.slide-in-left-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 200ms;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh
+}
+
