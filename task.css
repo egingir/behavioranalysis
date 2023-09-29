@@ -1,0 +1,102 @@
+.buyuk-kare {
+  height: 250px;
+  width: 250px;
+  background-color: var(--color-accent);
+}
+
+.kucuk-kare {
+  height: 100px;
+  width: 100px;
+  background-color: var(--color-accent);
+}
+
+.buyuk-daire {
+  height: 250px;
+  width: 250px;
+  background-color: var(--color-accent);
+  border-radius: 50%;
+}
+
+.kucuk-daire {
+  height: 100px;
+  width: 100px;
+  background-color: var(--color-accent);
+  border-radius: 50%;
+}
+
+.uyarici-daire {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.uyarici-kare {
+  height: 340px;
+  width: 268px;
+  border: 7px solid black;
+}
+
+
+
+.modal-footer {
+  text-align: right;
+}
+
+.register-form {
+  position: relative;
+  list-style: none;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 50%;
+  /* max-width: 40rem; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background: white;
+}
+
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid var(--color-accent);
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  
+  border-bottom: 50px solid whitesmoke;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  
+  border-top: 50px solid whitesmoke;
+}
+
+.arrow-up-exp {
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  
+  border-bottom: 10px solid whitesmoke;
+}
+
+
+.arrow-down-exp {
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  
+  border-top: 10px solid whitesmoke;
+}

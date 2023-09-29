@@ -1,0 +1,38 @@
+.itemListContainer {
+  height: 100%;
+  flex: 1;
+  /* flex-wrap: wrap; */
+}
+
+
+.travelStatusLiveIndicator
+{
+  display: flex;
+  align-items: center;
+  /* background-color: yellow; */
+  justify-content:center;
+  text-align: center;
+}
+
+.processongoing
+{
+  border: 1px solid darkred;
+  background-color: darkred;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center !important;
+  border-radius: 20px;
+}
+
+.processdone
+{
+  border: 1px solid darkblue;
+  background-color: darkblue;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center !important;
+  border-radius: 20px;
+}
+

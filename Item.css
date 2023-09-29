@@ -1,0 +1,252 @@
+.user-item {
+  margin: 1rem;
+  width: calc(45% - 2rem);
+  min-width: 17.5rem;
+}
+
+.item-form {
+  position: relative;
+  list-style: none;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 100%;
+  /* max-width: 40rem; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background: white;
+}
+
+.datepickerclass{
+  width: 100%;
+  height: 50px;
+}
+
+
+.new-item-form {
+  position: relative;
+  list-style: none;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 50%;
+  /* max-width: 40rem; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background: white;
+}
+
+
+.user-item a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  background: #292929;
+}
+
+.user-item a:hover,
+.user-item a:active {
+  background: #ffd900;
+}
+
+.user-item__content {
+  padding: 0;
+}
+
+.user-item__image {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.user-item__info h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: normal;
+  color: #ffd900;
+}
+
+.user-item:hover h2,
+.user-item:active h2,
+.user-item:hover h3,
+.user-item:active h3 {
+  color: #292929;
+}
+
+.user-item__info h3 {
+  margin: 0;
+}
+
+.place-item__modal-actions {
+  text-align: right;
+}
+
+.map-container {
+  height: 35rem;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button-container{
+width: 100%;
+justify-content: space-between;
+display: inline-flex;
+}
+
+
+
+
+
+
+
+
+.routeInfoStudents {
+  display: flex;
+ 
+  margin: 10px;
+  margin-top: 75px;
+  flex-wrap: wrap;
+}
+
+
+
+
+.horizontal-slider {
+  width: 100%;
+  max-width: 1500px;
+  height: 50px;
+  margin: auto;
+
+
+}
+.example-thumb {
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  background: #ffffff;
+  border: 5px solid #3774ff;
+  border-radius: 100%;
+  display: block;
+  box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
+}
+.example-thumb.active {
+  background-color: grey;
+}
+.example-track {
+  position: relative;
+  background: #ddd;
+}
+.example-track.example-track-0 {
+  background: #83a9ff;
+}
+.horizontal-slider .example-track {
+  top: 20px;
+  height: 4px;
+}
+.horizontal-slider .example-thumb {
+  top: 12px;
+  width: 10px;
+  outline: none;
+  height: 10px;
+  line-height: 38px;
+}
+
+.livepagecontainer
+{ 
+  flex-direction: row;
+  display:flex;
+  top: 12px;
+  /* margin: 10px; */
+  outline: none;
+  width: 100%;
+}
+
+.liveheadercontainer
+{
+  width: 300px; 
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;  
+  height: 100vh;
+}
+.liveheaderdatecontainer
+{
+  margin-top: 10px;
+}
+
+.routetrackcontainer {
+
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  
+/* flex-wrap: wrap; */
+}
+
+.routeplayercontainer
+{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  margin-bottom: 10px;
+}
+
+.routeInfoContainer {
+
+  display: flex;
+  flex-direction: column;
+  width:calc(100% - 300px);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  
+/* flex-wrap: wrap; */
+}
+
+.routeInfoMapContainer {
+  /* height: calc(100vh); */
+  height: calc(50vh);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  /* flex-wrap: wrap; */
+}
+
+
+.routeInfoMap {
+  height: calc(50vh);
+ display: flex;
+ margin-left: 10px;
+ margin-right: 10px;
+ flex-wrap: wrap;
+
+}
+
+.routeInfoDetails {
+  padding-top:100px;
+  display: flex;
+  display: inline-block;
+  flex-direction:row;
+  /* height: calc(100vh -7rem); */
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* flex-wrap: wrap; */
+}
+
+
+
+
+
+
+
+
